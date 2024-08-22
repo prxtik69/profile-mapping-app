@@ -17,7 +17,7 @@ const MapComponent = ({ address }) => {
 
     // TO BE DONE
     // I have to put API key here
-    <LoadScript googleMapsApiKey="https://maps.googleapis.com/maps/api/js?sensor=false&callback=myMap"> 
+    <LoadScript googleMapsApiKey=""> 
       <GoogleMap mapContainerStyle={mapStyles} zoom={13} center={defaultCenter}>
         <Marker position={defaultCenter} />
       </GoogleMap>
